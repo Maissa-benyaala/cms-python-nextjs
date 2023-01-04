@@ -1,0 +1,28 @@
+{
+  "header": {
+    "name": "header",
+    "content": "<Header>HEADER</Header>",
+    "style": {
+      "background": "black",
+      "color": "white"
+    }
+  },
+  "body": {
+    "name": "body",
+    "content": "<Body>BODY<h1 class='head-1'>Yoooo</h1><p>heeyy there! it's a paragraph</p></Body>",
+    "style": {
+      "display": "flex",
+      "flex-direction": "column",
+      "justify-content": "center",
+      "height": "10em"
+    }
+  },
+  "footer": {
+    "name": "footer",
+    "content": "<Footer>FOOTER</Footer>",
+    "style": {
+      "background": "green",
+      "color": "white"
+    }
+  }
+}
