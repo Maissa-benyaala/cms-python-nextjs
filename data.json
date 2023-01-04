@@ -1,28 +1,26 @@
 {
   "header": {
     "name": "header",
-    "content": "<Header>HEADER</Header>",
+    "content": "<Header><div class='top-bar'></div><h1>Heyy there! I'ts a header</Header>",
     "style": {
-      "background": "black",
-      "color": "white"
+      "color": "#9773ef"
     }
   },
   "body": {
     "name": "body",
-    "content": "<Body>BODY<h1 class='head-1'>Yoooo</h1><p>heeyy there! it's a paragraph</p></Body>",
+    "content": "<Body><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto consectetur, beatae aliquid, veniam dolores cumque vero quae ullam, at repellendus illum ipsum iste necessitatibus amet accusantium placeat.     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto consectetur, beatae aliquid, veniam dolores cumque vero quae ullam, at repellendus illum ipsum iste necessitatibus amet accusantium placeat. Tenetur, nemo dolores!</p><img src='https://images.pexels.com/photos/414102/pexels-photo-414102.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500' alt='' /> </Body>",
     "style": {
       "display": "flex",
-      "flex-direction": "column",
-      "justify-content": "center",
-      "height": "10em"
+      "justify-content": "space-between",
+      "align-items": "center",
+      "height": "88vh",
+      "padding": "0 9em"
     }
   },
   "footer": {
     "name": "footer",
-    "content": "<Footer>FOOTER</Footer>",
+    "content": "<Footer></Footer>",
     "style": {
-      "background": "green",
-      "color": "white"
     }
   }
 }

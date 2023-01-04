@@ -1,4 +1,61 @@
-h1 {
-  color: chocolate;
+* {
+  margin: 0;
 }
 
+header h1 {
+  text-align: center;
+  margin-top: 1em;
+}
+
+.top-bar {
+  width: 100vw;
+  height: 7px;
+  background-image: linear-gradient(
+    to right,
+    #d16ba5,
+    #cf6fb1,
+    #cb73be,
+    #c678cb,
+    #be7ed7,
+    #b77ddd,
+    #ae7ce4,
+    #a37beb,
+    #9773ef,
+    #8a6cf3,
+    #7965f7,
+    #655ffb
+  );
+}
+
+body p {
+  width: 35vw;
+}
+
+body p::after {
+  content: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste suscipit, placeat amet ipsam dolores, libero in autem necessitatibus ut, unde provident nihil expedita vitae nulla dolorum alias eius minus aliquid.     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste suscipit, placeat amet ipsam dolores, libero in autem necessitatibus ut, unde provident nihil expedita vitae nulla dolorum alias eius minus aliquid!  ";
+}
+
+body img {
+  width: 30vw;
+  border-radius: 8px;
+}
+
+footer {
+  width: 100vw;
+  height: 7px;
+  background-image: linear-gradient(
+    to right,
+    #655ffb,
+    #7965f7,
+    #8a6cf3,
+    #9773ef,
+    #a37beb,
+    #ae7ce4,
+    #b77ddd,
+    #be7ed7,
+    #c678cb,
+    #cb73be,
+    #cf6fb1,
+    #d16ba5
+  );
+}
