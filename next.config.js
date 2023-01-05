@@ -4,9 +4,3 @@ const nextConfig = {
 }
 
 module.exports = nextConfig
-
-const nextTranslate = require('next-translate');
-
-module.exports = nextTranslate({
-  reactStrictMode: true,
-});
