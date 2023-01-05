@@ -32,12 +32,16 @@ body p {
 }
 
 body p::after {
-  content: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste suscipit, placeat amet ipsam dolores, libero in autem necessitatibus ut, unde provident nihil expedita vitae nulla dolorum alias eius minus aliquid.     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste suscipit, placeat amet ipsam dolores, libero in autem necessitatibus ut, unde provident nihil expedita vitae nulla dolorum alias eius minus aliquid!  ";
+  /* content: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste suscipit, placeat amet ipsam dolores, libero in autem necessitatibus ut, unde provident nihil expedita vitae nulla dolorum alias eius minus aliquid.     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste suscipit, placeat amet ipsam dolores, libero in autem necessitatibus ut, unde provident nihil expedita vitae nulla dolorum alias eius minus aliquid!  "; */
 }
 
 body img {
   width: 30vw;
   border-radius: 8px;
+}
+
+.title {
+  color: red;
 }
 
 footer {

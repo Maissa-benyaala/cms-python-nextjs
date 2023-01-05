@@ -11,10 +11,10 @@ const Footer = ({ content, style }: any) => (
 );
 
 
-const Test = ({ header, body, footer }: any) => (
+const Test = ({ header, body, footer, meta }: any) => (
   <>
-    <Header content={header.content} style={header.style} />
-    <Body content={body.content} style={body.style} />
+    <Header content={header.content[meta]} style={header.style} />
+    <Body content={body.section1.content[meta]} style={body.style} />
     <Footer content={footer.content} style={footer.style} />
   </>
 );

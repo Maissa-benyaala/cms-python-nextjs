@@ -1,14 +1,28 @@
 {
   "header": {
     "name": "header",
-    "content": "<Header><div class='top-bar'></div><h1>Heyy there! I'ts a header</Header>",
+    "content": {
+      "english": "<Header><div class='top-bar'></div><h1 class=''>Heyy there! It's a header</Header>",
+      "arabic": "<Header><div class='top-bar'></div><h1 class=''>مرحبا أهلا وسهلا</Header>"
+    },
     "style": {
-      "color": "#9773ef"
+      "color": "black"
     }
   },
   "body": {
     "name": "body",
-    "content": "<Body><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto consectetur, beatae aliquid, veniam dolores cumque vero quae ullam, at repellendus illum ipsum iste necessitatibus amet accusantium placeat.     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto consectetur, beatae aliquid, veniam dolores cumque vero quae ullam, at repellendus illum ipsum iste necessitatibus amet accusantium placeat. Tenetur, nemo dolores!</p><img src='https://images.pexels.com/photos/414102/pexels-photo-414102.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500' alt='' /> </Body>",
+    "section1": {
+      "content": {
+        "english": "<Body><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto consectetur, beatae aliquid, veniam dolores cumque vero quae ullam, at repellendus illum ipsum iste necessitatibus amet accusantium placeat.     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto consectetur, beatae aliquid, veniam dolores cumque vero quae ullam, at repellendus illum ipsum iste necessitatibus amet accusantium placeat. Tenetur, nemo dolores!</p><img src='https://images.pexels.com/photos/414102/pexels-photo-414102.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500' alt='' /> </Body>",
+        "arabic": "<Body><p>'لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو أيوسمود تيمبور أنكايديديونتيوت لابوري ات دولار ماجنا أليكيوا . يوت انيم أد مينيم فينايم,كيواس نوستريد أكسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو كونسيكيوات . ديواس أيوتي أريري دولار إن ريبريهينديرأيت فوليوبتاتي فيلايت أيسسي كايلليوم دولار أيو فيجايت نيولا باراياتيور. أيكسسيبتيور ساينت أوككايكات كيوبايداتات نون بروايدينت ,سيونت ان كيولبا كيو أوفيسيا ديسيريونتموليت انيم أيدي ايست لابوريوم.'</p><img src='https://images.pexels.com/photos/414102/pexels-photo-414102.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500' alt='' /> </Body>"
+      }
+    },
+    "section2": {
+      "content": {
+        "english": "<Body><p>222222222222222Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto consectetur, beatae aliquid, veniam dolores cumque vero quae ullam, at repellendus illum ipsum iste necessitatibus amet accusantium placeat.     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto consectetur, beatae aliquid, veniam dolores cumque vero quae ullam, at repellendus illum ipsum iste necessitatibus amet accusantium placeat. Tenetur, nemo dolores!</p><img src='https://images.pexels.com/photos/414102/pexels-photo-414102.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500' alt='' /> </Body>",
+        "arabic": "<Body><p>'2222222222لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو أيوسمود تيمبور أنكايديديونتيوت لابوري ات دولار ماجنا أليكيوا . يوت انيم أد مينيم فينايم,كيواس نوستريد أكسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو كونسيكيوات . ديواس أيوتي أريري دولار إن ريبريهينديرأيت فوليوبتاتي فيلايت أيسسي كايلليوم دولار أيو فيجايت نيولا باراياتيور. أيكسسيبتيور ساينت أوككايكات كيوبايداتات نون بروايدينت ,سيونت ان كيولبا كيو أوفيسيا ديسيريونتموليت انيم أيدي ايست لابوريوم.'</p><img src='https://images.pexels.com/photos/414102/pexels-photo-414102.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500' alt='' /> </Body>"
+      }
+    },
     "style": {
       "display": "flex",
       "justify-content": "space-between",
@@ -19,8 +33,6 @@
   },
   "footer": {
     "name": "footer",
-    "content": "<Footer></Footer>",
-    "style": {
-    }
+    "content": "<Footer></Footer>"
   }
 }
